@@ -21,8 +21,11 @@ module.exports = {
 	 *
 	 */
 	show: function(req,res){
+
+		var userId = req.param("id");
+
 		return res.status(200).json({
-			message: "user #1"
+			message: userId
 		});
 	}
 
