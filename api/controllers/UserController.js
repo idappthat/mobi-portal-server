@@ -13,7 +13,7 @@ module.exports = {
 	 */
 	create: function(req,res){
 		return res.status(200).json({message:"Success"});
-	}
+	},
 
 	/**
 	 * UserController.show()
@@ -23,7 +23,7 @@ module.exports = {
 	show: function(req,res){
 		return res.status(200).json({
 			message: "user #1"
-		}
+		});
 	}
 
 };
