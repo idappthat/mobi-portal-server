@@ -1,3 +1,2 @@
-# mobi-portal-backend
-
-a [Sails](http://sailsjs.org) application
+# mobi-portal-server
+Backend for portal website
